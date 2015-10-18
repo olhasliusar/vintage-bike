@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
 	<title>Vintage bike</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta charset="UTF-8">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<link rel="icon" href="favicon.png"/>
@@ -20,18 +20,24 @@
 </head>
 <body>
 	<header class="ba-header">
+		<a href="#" class="ba-logo-mobile ba-float-left">
+			<img src="img/main-logo.png" alt="Vintage bike">
+		</a>
 		<nav role="navigation">
+	<!--		<input type="checkbox" id="ba-menu-trigger" class="ba-float-right" hidden> -->
+			<dic class="ba-overlay"></dic>
 			<ul class="ba-main-menu">
 				<li><a href="#">About Us</a></li>
 				<li><a href="#">Work</a></li>
 				<li class="ba-logo">
 					<a href="#">
-					<img src="img/main-logo.png" alt="Vintage bike">
+						<img src="img/main-logo.png" alt="Vintage bike">
 					</a>
 				</li>
 				<li><a href="#">Shop</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
+			<label for="ba-menu-trigger" class="ba-menu-toggle"></label>
 		</nav>
 	</header>
 	<main role="main">
@@ -261,5 +267,6 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/main.js"></script>
 </body>
 </html>
